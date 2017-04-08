@@ -1,0 +1,33 @@
+$baseClass: "app";
+
+.#{$baseClass} {
+  display: flex;
+  flex-direction: column;
+  
+  .#{$baseClass}-header {
+    display: flex;
+    background-color: #49c088;
+    padding: 10px 0 10px 0;
+    color: white;
+    
+    .#{$baseClass}-logo {
+      height: 80px;
+    }
+  }
+  
+  .#{$baseClass}-content {
+    padding: 5px 0 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    .#{$baseClass}-element {
+      margin: 5px;
+      border: 1px solid lightgray;
+    }
+    .#{$baseClass}-element:first-child {
+      margin-left: 0px;
+    }
+    .#{$baseClass}-element:last-child {
+      margin-right: 0px;
+    }
+  }
+}
