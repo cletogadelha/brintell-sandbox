@@ -63,10 +63,6 @@ class App extends Component {
             <KpiDetailsComponent data={this.kpiDetailsComponentConfig.data} config={this.kpiDetailsComponentConfig.config}/>
           </div>
 
-          <div className={this._baseClass+"-element"}>
-            <NovoComponent data={this.kpiDetailsComponentConfig.data} config={this.kpiDetailsComponentConfig.config}/>
-          </div>
-
         </section>
       </section>
     );
